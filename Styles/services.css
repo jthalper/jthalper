@@ -1,0 +1,317 @@
+@media only screen and (min-width: 769px) {
+
+body {
+    display: grid; 
+}
+
+header {
+    background-color: #0288D1;
+    display: inline-flex;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left:10px;
+}
+
+.headnav {
+    display: inline-flex;
+    position: relative;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.content {
+    display: none;
+    position: absolute;
+    background-color: gainsboro;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+} 
+
+.content a:hover {
+    background-color: #0288D1;
+    color: white;
+}
+
+.dropdown:hover .content {display: block;
+}
+
+
+.navtext {
+    padding-top: 40px;
+    padding-right: 10px;
+    background-color: #0288D1;
+    border: 1px solid #0288D1;
+    flex-shrink: 2;
+}
+
+.navtext h4:hover {
+    color: gainsboro;
+}
+
+a {
+    color: white;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #BDBDBD;
+}
+
+
+h4 {
+    color: white;
+}
+
+
+h1, h2, h3, h5 {
+    color: #757575;
+    font-family: "georgia", sans;
+}
+
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+footer {
+    background-color: #0288D1;
+    display: inline-flex;
+    padding-bottom: 5px;
+    padding-top: 20px;
+    padding-left:10px;
+    align-content: baseline;
+    width: 100%;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+
+.footnav {
+    display: inline-flex;
+    justify-content: space-between;
+    width: 400px;
+    height: 20vh;
+    align-content: flex-end;
+}
+
+.foottext {
+    text-align: justify;
+    padding-left: 20%;
+    padding-top: 10px;
+    color: white;
+}
+    
+    .menubutton {
+        display: none;
+    }
+
+    .heading {
+        text-align: center;
+    }
+    
+    
+    .services {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .boxes {
+        display: inline-flex;
+        padding-left: 30px;
+        margin-top: 30px;
+        
+    }
+    
+    .images {
+        width:33%;
+        margin-bottom: 30px;
+    }
+    
+    .images img {
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    }
+    
+    .text {
+        width:66%;
+    }
+
+}
+
+
+
+
+/* MEDIA QUERY xxxxxxxxxxxxxxxx */
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+    
+body {
+    display: grid; 
+}
+
+header {
+    background-color: #0288D1;
+    display: inline-flex;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left:10px;
+}
+
+.headnav {
+    display: inline-flex;
+    position: relative;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.content {
+    display: none;
+    position: absolute;
+    background-color: gainsboro;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+} 
+
+.content a:hover {
+    background-color: #0288D1;
+    color: white;
+}
+
+.dropdown:hover .content {display: block;
+}
+
+
+.navtext {
+    padding-top: 40px;
+    padding-right: 10px;
+    background-color: #0288D1;
+    border: 1px solid #0288D1;
+    flex-shrink: 2;
+    display: none;
+}
+
+.navtext h4:hover {
+    color: gainsboro;
+}
+
+a {
+    color: white;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #BDBDBD;
+}
+
+
+h4 {
+    color: white;
+}
+
+
+h1, h2, h3, h5 {
+    color: #757575;
+    font-family: "georgia", sans;
+}
+
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+footer {
+    background-color: #0288D1;
+    display: inline-flex;
+    padding-bottom: 5px;
+    padding-top: 20px;
+    padding-left:10px;
+    align-content: baseline;
+    width: 100%;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+
+.footnav {
+    display: inline-flex;
+    justify-content: space-between;
+    width: 400px;
+    height: 20vh;
+    align-content: flex-end;
+}
+
+.foottext {
+    text-align: justify;
+    padding-left: 20%;
+    padding-top: 10px;
+    color: white;
+}
+
+    .menubutton {
+        background-color: gray;
+        margin-top: 20px;
+        padding-top: 10px;
+        margin-right: 50px;
+        border-radius: 10px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    }
+    
+    .heading {
+        text-align: center;
+    }
+    
+    
+    .services {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    
+    .boxes {
+        display: inline-flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-left: 30px;
+        margin-top: 30px;
+        
+    }
+    
+    .images {
+        width:300px;
+        margin-bottom: 30px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    }
+    
+    .text {
+        width:66%;
+    }
+    
+    
+}
+
